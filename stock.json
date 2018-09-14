@@ -1,0 +1,45 @@
+{
+  "vType": "array",
+  "required": 1,
+  "elem": {
+
+    "vType": "object",
+    "required": 1,
+    "name": {
+      "vType": "text",
+      "required": 1
+    },
+    "symbol": {
+      "vType": "text",
+      "required": 1
+    },
+    "date": {
+      "vType": "text",
+      "required": 1
+    },
+    "last_refreshed": {
+      "vType": "int",
+      "required": 1
+    },
+    "cur": {
+      "vType": "double",
+      "required": 1
+    },
+    "high": {
+      "vType": "double",
+      "required": 1
+    },
+    "low": {
+      "vType": "double",
+      "required": 1
+    },
+    "prev_close": {
+      "vType": "double",
+      "required": 1
+    },
+    "values": {
+      "vType": "object",
+      "required": 1
+    }
+  }
+}
