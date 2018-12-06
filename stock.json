@@ -37,6 +37,10 @@
       "vType": "double",
       "required": 1
     },
+    "duration": {
+      "vType": "text",
+      "required": 0
+    },
     "values": {
       "vType": "object",
       "required": 1
